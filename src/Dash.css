@@ -4,10 +4,12 @@
 
 .pricetitle{
   font-weight: 600;
+  color: #ECEFF1;
 }
 
 .pricesubtitle{
   font-size: 14px;
+  color: #ECEFF1;
 }
 
 .iconstyle{
@@ -17,13 +19,13 @@
 }
 
 .gradient{
-  background: rgb(40, 34, 70);
-  background: linear-gradient(158deg, rgba(40, 34, 70, 1) 0%, rgba(30, 47, 141, 1) 100%);
+  background: rgb(8, 102, 233);
+  background: linear-gradient(158deg, rgb(45, 5, 243) 0%, rgba(30, 47, 141, 1) 100%);
 }
 
 .gradientLight{
-  background: rgb(53, 138, 148);
-  background: linear-gradient(158deg, rgba(53, 138, 148, 1) 0%, rgba(91, 180, 96, 1) 100%);
+  background: rgb(8, 102, 233);
+  background: linear-gradient(158deg, rgb(45, 5, 243) 0%, rgba(30, 47, 141, 1) 100%);
 }
 
 .bgcolor{

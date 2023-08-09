@@ -14,12 +14,11 @@ export default function AccordionDash() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>C Programming</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Course taken by "Dipta Chandra Paul"
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -29,12 +28,11 @@ export default function AccordionDash() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Data Structure & Algorithm</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Course taken by "Prithwiraj Bhattacharjee"
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -44,15 +42,29 @@ export default function AccordionDash() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 3</Typography>
+          <Typography>Java</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Course taken by "Md. Jehadul Islam Mony"
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Machine Learning</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Course taken by "Shafkat Kibria"
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
 
     </div>
   );
