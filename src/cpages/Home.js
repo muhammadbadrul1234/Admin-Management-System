@@ -32,7 +32,7 @@ export default function Home() {
                             <CreditCardIcon />
                         </div>
                         <Typography gutterBottom variant="h5" component="div" sx={{ color: "#ffff" }}>
-                            $500.00
+                            100.00 BDT
                             </Typography> 
                             <Typography 
                             gutterBottom variant="body2" 
@@ -49,7 +49,7 @@ export default function Home() {
                             <ShoppingBagIcon />
                         </div>
                         <Typography gutterBottom variant="h5" component="div" sx={{ color: "#ffff" }}>
-                            $900.00
+                            50.00 BDT
                         </Typography>
                         <Typography 
                         gutterBottom variant="body2" 
@@ -70,7 +70,7 @@ export default function Home() {
                             <StorefrontIcon />
                         </div>
                         <div className="paddingall">
-                            <span className="pricetitle">$203K</span>
+                            <span className="pricetitle">20K BDT</span>
                             <br />
                             <span className="pricesubtitle">Total Income</span>
                         </div>
@@ -82,7 +82,7 @@ export default function Home() {
                             <StorefrontIcon />
                         </div>
                         <div className="paddingall">
-                            <span className="pricetitle">$203K</span>
+                            <span className="pricetitle">16K BDT</span>
                             <br />
                             <span className="pricesubtitle">Total Income</span>
                         </div>
@@ -104,7 +104,7 @@ export default function Home() {
                     <Card sx={{ height: 60 + "vh" }}>
                         <CardContent>
                             <div className="paddingall">
-                                <span className="pricetitle">Popular Products</span>
+                                <span className="pricetitle2">Popular Courses</span>
                             </div>
                             <AccordionDash />
                         </CardContent>
